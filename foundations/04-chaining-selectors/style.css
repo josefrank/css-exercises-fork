@@ -1,0 +1,11 @@
+/*For this specific exercise I tried figuring out which of the width properties was applied. It turns out it is undetermined since both rules have the same level of specificity. Bing AI and ChatGPT couldn't figure it out either.*/
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+  }
+
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
