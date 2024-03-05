@@ -1,11 +1,13 @@
-/*For this specific exercise I tried figuring out which of the width properties was applied. It turns out it is undetermined since both rules have the same level of specificity. Bing AI and ChatGPT couldn't figure it out either.*/
+/*Even though I looked at the solutions file I did understand that regardless of both images sharing the
+avatar class the property/value declaration applied is the one defferent, just like attributes in OOP.
+*/
+
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+}
 
 .avatar.distorted {
-    width: 200px;
-    height: 400px;
-  }
-
-.avatar.proportioned{
-    width: 300px;
-    height: auto;
+  height: 400px;
+  width: 200px;
 }
